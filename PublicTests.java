@@ -49,7 +49,7 @@ public class PublicTests {
 					{2, 8, 7, 4, 1, 9, 6, 3, 5},
 					{3, 4, 5, 2, 8, 6, 1, 7, 9}};
 
-		assertTrue(Arrays.deepEquals(Solver.solve(pubPuzzOne), pubPuzzOneSolution));
+		assertTrue(Arrays.deepEquals(StudentSolver.solve(pubPuzzOne), pubPuzzOneSolution));
 	}
 
 	@Test
@@ -66,7 +66,7 @@ public class PublicTests {
 				{2, 6, 9, 8, 7, 1, 4, 3, 5}};
 
 		//assertEquals(Solver.solve(pubPuzzTwo), pubPuzzTwoSolution);
-		assertTrue(Arrays.deepEquals(Solver.solve(pubPuzzTwo), pubPuzzTwoSolution));
+		assertTrue(Arrays.deepEquals(StudentSolver.solve(pubPuzzTwo), pubPuzzTwoSolution));
 	}
 
 	@Test
@@ -83,7 +83,7 @@ public class PublicTests {
                     {7, 3, 4, 9, 8, 5, 1, 6, 2}};
 
 		//assertEquals(Solver.solve(pubPuzzThree), pubPuzzThreeSolution);
-		assertTrue(Arrays.deepEquals(Solver.solve(pubPuzzThree), pubPuzzThreeSolution));
+		assertTrue(Arrays.deepEquals(StudentSolver.solve(pubPuzzThree), pubPuzzThreeSolution));
 	}
 
 }
